@@ -15,12 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
-SESSION = config("SESSION", default=None)
-FORCESUB = config("FORCESUB", default=None)
-AUTH = config("AUTH", default=None)
+API_ID = config("18688563", default=None, cast=int)
+API_HASH = config("48315c25585c23eee6b1f346aad17a68", default=None)
+BOT_TOKEN = config("6786278075:AAHvQDFYEUk68NtJ95uAHyLKCC02afDLjpo", default=None)
+SESSION = config("BQCTxF_JKRSCREkZLNiVLfFyERGYvqML1dEu95KHqbHgNSCzDV_RqcjEV9iE6Z68ZjjdwEj0dZfinpod4yEKM2uXgjntZ56qY5rkGRZYN5tv4Ul-SQOUVyQQWdWRKjVUNZWNLTEzt1AoMkrB3WcsMfzL1FChNYhRPsQpaqPhAmsFJ_ZNE5psZ32GPm9ro566c2jYdrzfd74HNUHM08uHrq1SBS7Q9ktmTUkE26558qQwEMki8X6MPLmjf28hf7OYdXnbCLj1H2HIiwb2sAra9dbT3QmNa9K9kDCY6F36zFUtIKEG3tpG94zVvwQ8r_MAUaQCx_CtIL0Wi0rsyq-oOqn_AAAAAUuSxxUA", default=None)
+FORCESUB = config("dndmovie", default=None)
+AUTH = config("5562877717", default=None)
 SUDO_USERS = []
 
 if len(AUTH) != 0:
